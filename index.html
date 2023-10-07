@@ -17,7 +17,7 @@
     
     
     <nav id="navbar">
-        <h1>Front-End Basic</h1>
+        <h1>Front-End Basic</h1><sub>Documentation</sub>
         <ul>
             <li>
                 <a class="nav-link" href="">Internet</a>
@@ -85,37 +85,419 @@
             <h2>Technologies that I have studied</h2>
         </header>
         <section id="Internet" class="main-section" >
-            <h3>Internet</h3>           
+            <h3>Internet</h3>     
+            <p>Internet  is a worldwide system of connected computer networks for information storage, processing and transmission, which:</p>
+            <ul>
+                <li>logically connected by space of global unique addresses, which are based on Internet protocols (IP) or on subsequent extensions or successors IP;</li>
+                <li>is able to support communications using the Transmission Control Protocol/Internet Protocol (TCP/IP) or its subsequent extensions/successors and/or other IP compatible protocols;</li>
+                <li>provides, uses or makes available, on a public or private basis high-level services, built on top of the communications and related infrastructure described here.</li>
+            </ul>   
+            <p> 
+                <strong>The World Wide Web (WWW)</strong> and many other data transmission systems work based on an Internet connection. 
+                The concept of the World Wide Web provides for the development and use of the HTTP (HyperText Transfer Protocol), 
+                HTML (HyperText Markup Language) and URIs (Uniform Resource Identifier). 
+                Please note that the concept of the World Wide Web is not identical with the concept of the Internet, but is an integral part of it.
+                <br>WWW (World Wide Web) is a distributed system that provides access to connected documents located on different computers, which are connected to the Internet.
+            </p>
         </section>
         <section id="Website" class="main-section">
             <h3>Website</h3>
+            <p>Websites are the foundation, on which the Internet is based. 
+                Web–site (site) is one or more web pages connected with each other by links, united by subject, and located at the same address. 
+                Web-page is a document, which is written with HTML (HyperText Markup Language).
+                There are over 1.5 billion websites on the Internet today, with less than 200 million active. 
+                Follow thе <a href="https://www.internetlivestats.com/total-number-of-websites/" target="_blank" rel="noopener noreferrer">link</a>, 
+                to see more detailed statistics on the number of websites and their users.
+            </p>
         </section>
         <section id="Internal_Development_Environment" class="main-section">
             <h3>Internal Development Environment</h3>
+            <p>An integrated development environment (IDE) is a software application that helps programmers develop software code efficiently.
+                 It increases developer productivity by combining capabilities such as software editing, building,
+                testing, and packaging in an easy-to-use application. Just as writers use text editors and accountants use spreadsheets,
+                software developers use IDEs to make their job easier.
+            </p>
+            <p>Online Code Editors
+
+                Online code editor is a tool, which is on a remote server and is accessed and used through a browser. 
+                Some online code editors have functionality that is similar to a regular text editor, while others are more like full-fledged IDEs. 
+                There are various online services that allow to create Web pages and provide the ability to execute HTML, CSS and JS code; work together; 
+                save work results.
+            </p>
+            <p>
+                Offline Code Editors 
+                Apart from online code editors, there is a category of IDEs that can be locally installed on your personal computer or laptop.
+                The options we're about to discuss apply to both text editors and feature-rich integrated environments (IDEs) that you can run
+                directly on your local machine, offering a wide range of choices to suit your development needs.
+            </p>
+            <p>Offline code editors offer several benefits:</p>
+            <ul>
+                <li>Speed and Performance: They usually run faster since they don't depend on a constant internet connection or remote servers. 
+                    This speed can significantly improve your coding efficiency.
+                </li>
+                <li>
+                    Offline Access: You can work on your projects even when you don't have an internet connection. This is particularly useful when traveling or in areas with limited connectivity.
+                </li>
+                <li>
+                    Customization: Many offline code editors are highly customizable, allowing you to tailor your development environment to your specific needs, 
+                    from choosing themes and extensions to configuring keyboard shortcuts.
+                </li>
+                <li>
+                    And so on.
+                </li>
+            </ul>
+            
         </section>
         <section id="HTML_main_elements" class="main-section">
             <h3>HTML main elements</h3>
+            <p>Any web page contains a set of elements that are its “skeleton”. 
+                These are typical elements that are on every page, regardless of subject matter or language. 
+                Remember that every element in HTML is a tag. In turn, the tag is the foundation of HTML. Based on this, 
+                we can say that in each HTML document, tags form a tree of HTML elements. The document also includes text and comments.
+            </p>
+            <p>The structure of a minimal HTML document would look like this:
+                <pre>
+                    <code>
+        The structure of a minimal HTML document would look like this:
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Document Title&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;!-- Content goes here --&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+                    </code>
+                </pre>
+            </p>
+            
+            <ul>
+                <li>&lt;html&gt;: The root element of an HTML document, encapsulating all other elements.</li>
+                <li>&lt;head&gt;: Contains meta-information about the document, such as the document's title and links to external resources like stylesheets and scripts.</li>
+                <li>&lt;body&gt;: Contains the visible content of the document, including text, images, links, and other elements.</li>
+                <li>&lt;link&gt;: Typically found in the &lt;head&gt;, it's used to link external resources, such as stylesheets. For example, &lt;link rel="stylesheet" href="styles.css"&gt; links to an external CSS file.</li>
+                <li>&lt;title&gt;: Also in the &lt;head&gt;, it specifies the title of the HTML document, which appears in the browser's title bar or tab.</li>
+                <li>&lt;meta&gt;: Provides metadata about the document, like character encoding (e.g., UTF-8), author information, or keywords for search engines.</li>
+            </ul>
+            <p>These elements play crucial roles in structuring and enhancing the presentation and functionality of web pages.</p>
         </section>
         <section id="Semantic_elements" class="main-section">
             <h3>Semantic elements</h3>
+            <p>
+                Semantics is the science of the meanings of words and phrases of the language. It means that semantic elements are elements with meaning.
+                Semantic elements (semantic tags) allow to specify the role of the content on the page. 
+                This additional information helps robots/indexers like Google and Bing to understand better what content is important, what is secondary, 
+                what is used for navigation, and so on. By adding semantic elements to a web page, it provides additional data that helps search engines to understand 
+                the roles and relative importance of different parts of the web page. 
+                In addition, semantic tags enable screen readers to highlight important content on a page and display it. 
+                Thus, the content becomes even more accessible to different categories of users.
+            </p>
+
+                <p>HTML5 offers semantic elements to define different parts of a web page. Let us take a look at some of them below.</p>
+                <img src="img/img_sem_elements.gif" alt="semantic-elements">
+            
         </section>
         <section id="Links_Images_Text" class="main-section">
             <h3>Links Images Text</h3>
+            <p>HTML is a versatile language for creating web content. 
+            It allows you to incorporate links, images, and text seamlessly into your web pages.</p>
+        
+            <p>
+                HTML Links (&lt;a&gt;), created using the &lt;a&gt; (anchor) element, are essential for website navigation.
+                These links use the href attribute to specify the destination URL. Whether you're linking to other web pages or external resources,
+                HTML links provide seamless connectivity.
+            </p>
+            <pre>
+                <code>
+            &lt;a href="https://www.example.com"&gt;Visit Example.com&lt;/a&gt; <!-- HTML Link Example -->
+                </code>
+            </pre>
+        
+            <p>
+                HTML Images (&lt;img&gt;) element enables you to display images effortlessly. 
+                By setting the src attribute to the image file's URL, you can showcase graphics, photos, 
+                and icons on your web pages. Including alternative text with the alt attribute is a good 
+                practice for accessibility.
+            </p>
+            <pre>
+                <code>                 
+            &lt;img src="image.jpg" alt="A beautiful image"&gt; <!-- HTML Image Example -->
+                </code>
+            </pre>
+            <p>
+                HTML Text (&lt;p&gt;, &lt;h1&gt;, &lt;span&gt;) excels at structuring and presenting textual content. 
+                You can use elements like &lt;p&gt; (paragraph), &lt;h1&gt; to &lt;h6&gt; (headings), 
+                and &lt;span&gt; (inline text container) to format and style your text. Whether it's informative paragraphs, 
+                eye-catching headings, or custom-styled inline text, HTML provides the tools to make your content stand out.
+            </p>
+            
+            <pre>
+                <code>                    
+            &lt;h1&gt;Welcome to My Website&lt;/h1&gt; &lt;!-- HTML Heading Example --&gt;
+            &lt;p&gt;This is a paragraph of text.&lt;/p&gt; <!-- HTML Text Example -->
+                </code>
+            </pre>
+
         </section>
         <section id="Lists" class="main-section">
             <h3>Lists</h3>
+            <p>The lists are used very often in everyday life. For example, to compile a list of tasks for the day or shopping at the store. 
+                As for web pages, lists are used to list items in an ordered to facilitate the user understanding.
+                HTML5 deals with  different types of lists: ordered, bullet (unordered), nested, layered, and definition lists.
+            </p>
+            <p>
+                An unordered list is used to list related items when the order doesn't matter. For example: a list of places you want to visit:
+            </p>
+            <ul>
+                <li>Petra</li>
+                <li>Machu Picchu</li>
+                <li>Iceland</li>
+            </ul>
+            <p>
+                An unordered list in HTML is created using the &lt;ul&gt;&lt;/ul&gt; block tags. In this case, 
+                to create each individual item in the list, you need to use the &lt;li&gt;&lt;/li&gt; element.
+            </p>
+
+                <pre>
+                    <code>
+            &lt;ul&gt;
+                &lt;li&gt;Petra&lt;/li&gt;
+                &lt;li&gt;Machu Picchu&lt;/li&gt;
+                &lt;li&gt;Iceland&lt;/li&gt;
+            &lt;/ul&gt;
+                    </code>
+                </pre>
+
+
         </section>
         <section id="Tables" class="main-section">
             <h3>Tables</h3>
+            <p>HTML tables are the elements by which data is organized and displayed on the screen. Each table has rows and columns, intersections of which create cells. Table cells can contain any HTML elements, such as headers, lists, text, images, form elements, and even other tables. Any table can have a heading associated with it, which can be placed before or after the table.</p>
+
+            <p>The &lt;table&gt;&lt;/table&gt; pair tag is used to create a table. 
+                This tag is a container for table elements, all of them must be inside it. 
+                By default, tables and cells have no visible borders. To create table borders, spaces between cells, etc, 
+                it is needed to use special CSS properties
+            </p>
+            
+            <p>
+                An HTML table &lt;table&gt;must have at least:
+            </p>
+            <ul>
+                <li>one line &lt;tr&gt;</li>
+                <li>one cell — the heading &lt;th&gt; or &lt;td&gt; — is a normal cell in each line.</li>
+            </ul>
+
+            <p>
+                While a table is created using the &lt;table&gt;, it can be divided into a header, footer, 
+                and body using the &lt;thead&gt;, &lt;tfoot&gt;, and &lt;tbody&gt;. The &lt;caption&gt;
+                tag is used to add a caption to the table. Inside the table &lt;table&gt;
+                can be divided not only by rows, but also by columns, using the &lt;col&gt; and &lt;colgroup&gt; tags.
+                How to use these tags, we will consider below.
+            </p>
+            <table>
+                <caption  style="caption-side:bottom">Please note that CSS is also used for table design</caption>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Position</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>John Doe</td>
+                        <td>HR</td>
+                        <td>Manager</td>
+                        <td>$60,000</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Jane Smith</td>
+                        <td>Marketing</td>
+                        <td>Coordinator</td>
+                        <td>$45,000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <pre>
+                <code>
+        &lt;table&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;ID&lt;/th&gt;
+                    &lt;th&gt;Name&lt;/th&gt;
+                    &lt;th&gt;Department&lt;/th&gt;
+                    &lt;th&gt;Position&lt;/th&gt;
+                    &lt;th&gt;Salary&lt;/th&gt;
+                &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;101&lt;/td&gt;
+                    &lt;td&gt;John Doe&lt;/td&gt;
+                    &lt;td&gt;HR&lt;/td&gt;
+                    &lt;td&gt;Manager&lt;/td&gt;
+                    &lt;td&gt;$60,000&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;102&lt;/td&gt;
+                    &lt;td&gt;Jane Smith&lt;/td&gt;
+                    &lt;td&gt;Marketing&lt;/td&gt;
+                    &lt;td&gt;Coordinator&lt;/td&gt;
+                    &lt;td&gt;$45,000&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+                </code>
+            </pre>
+
         </section>
         <section id="Forms" class="main-section">
             <h3>Forms</h3>
+            <p>In modern Web applications, forms are used to receive feedback, collect personal information, 
+                method of payment and delivery of goods, find out user preferences, select goods and services, authorize on sites, 
+                and in many other cases. These can be simple forms, such as a login form or a form to search for information on a site, 
+                or large, complex forms that sometimes span multiple pages.
+            </p>
+            <p>When adding a form to a page, it is important to remember that the user is most often reluctant to share their data, so there are a few simple rules to keep in mind:</p>
+        <ul>
+            <li>Accessibility — use form elements to help the user easily enter data.</li>
+            <li>Collect information in a form convenient for storage and use.</li>
+            <li>Collect only the information you need.</li>
+            <li>Tell users what data is expected of them and in what format.</li>
+        </ul>
+        <div id="form">
+            <form  action="submit.php" method="post">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="city">Select a city:</label>
+                    <select id="city" name="city">
+                        <option value="new-york">New York</option>
+                        <option value="los-angeles">Los Angeles</option>
+                        <option value="chicago">Chicago</option>
+                        <option value="miami">Miami</option>
+                        <option value="san-francisco">San Francisco</option>
+                    </select>
+                </p>
+                <input type="submit" value="Submit">
+            </form>
+            <pre class="formcode">
+                <code>
+        &lt;form action="submit.php" method="post"&gt;
+            &lt;p&gt;
+                &lt;label for="name"&gt;Name:&lt;/label&gt;
+                &lt;input type="text" id="name" name="name" required&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;label for="email"&gt;Email:&lt;/label&gt;
+                &lt;input type="email" id="email" name="email" required&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;label for="city"&gt;Select a city:&lt;/label&gt;
+                &lt;select id="city" name="city"&gt;
+                    &lt;option value="new-york"&gt;New York&lt;/option&gt;
+                    &lt;option value="los-angeles"&gt;Los Angeles&lt;/option&gt;
+                    &lt;option value="chicago"&gt;Chicago&lt;/option&gt;
+                    &lt;option value="miami"&gt;Miami&lt;/option&gt;
+                    &lt;option value="san-francisco"&gt;San Francisco&lt;/option&gt;
+                &lt;/select&gt;
+            &lt;/p&gt;
+            &lt;input type="submit" value="Submit"&gt;
+        &lt;/form&gt;
+                </code>
+            </pre>
+        </div>
         </section>
         <section id="CSS_Basic" class="main-section">
             <h3>CSS Basic</h3>
+            <p>CSS (Cascading Style Sheets) are used to work with fonts, colours, tables, pictures, layout of elements. 
+                That is the main purpose of CSS — Web page design. Since the CSS were developed, it became possible to separate out the markup and content, 
+                usually written in HTML, from its design.
+            </p>
+            <p>External Style Sheet is a text file with .css extension (for example, styles.css), 
+                which contains css styles (without html markup). This file can be created with any text or code editor. 
+                With an external style sheet, you can create or edit the look and feel of an entire site by changing only one file. 
+                You can attach an external style sheet to a Web page using the tag &lt;link&gt;, 
+                which is nested within a section &lt;head&gt;&lt;/head&gt;.
+            </p>
+            <pre>
+                <code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;External Style Example&lt;/title&gt;
+            
+            &lt;!-- Link to the External CSS File --&gt;
+            &lt;link rel="stylesheet" href="styles.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+                </code>
+            </pre>
         </section>
         <section id="Selectors" class="main-section">
             <h3>Selectors</h3>
+            <p>The more efficient and logical the HTML is, the easier it is to write effective CSS. 
+                CSS uses selectors to indicate which HTML elements to apply style rules to. 
+                Selectors are divided into different categories.
+            </p>
+           
+            <ol class="selectors">
+                <li>Universal Selector (*): Selects all elements on the page
+                    <code>
+                        * {} 
+                    </code>
+                </li>
+                <li>Type Selector (Element Selector): Selects all &lt;p&gt; elements
+                    <code>p {}</code>
+                </li>
+                <li>Class Selector (.classname): Selects elements with class attribute
+                    <code>.highlight {}</code>
+                </li>
+                <li>ID Selector (#idname): Selects element with id attribute
+                    <code>#header {}</code>
+                </li>
+                <li>Attribute Selector ([attribute]): Selects elements with a specific attribute
+                    <code>[target] {}</code>
+                </li>
+                <li>Attribute with Value Selector ([attribute="value"]): Selects elements with a specific attribute and value
+                    <code>[type="text"] {}</code>
+                </li>
+                <li>Descendant Selector (whitespace): Selects an element that is a descendant of another element
+                    <code>nav a {}</code>
+                </li>
+                <li>Child Combinator Selector (&gt;): Selects an element that is a direct child of another element
+                    <code>ul > li {}</code>
+                </li>
+                <li>Adjacent Sibling Selector (+): Selects an element immediately preceded by another element
+                    <code>h2 + p {}</code>
+                </li>
+                <li>General Sibling Selector (~): Selects elements with the same parent and preceded by a specified element
+                    <code>h3 ~ p {}</code>
+                </li>
+                <li>Pseudo-Class (:pseudo-class): Selects elements based on their state or position
+                    <code>a:hover {}</code>
+                </li>
+                <li>Pseudo-Element (::pseudo-element): Selects parts of an element rather than whole elements
+                    <code>p::before {}</code>
+                </li>
+            </ol>
         </section>
         <section id="Proporties_Overview" class="main-section">
             <h3>Proporties Overview</h3>
