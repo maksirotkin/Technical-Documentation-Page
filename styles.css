@@ -3,7 +3,9 @@
 }
 body{
     margin: 0;
-    background-color:rgb(139, 188, 172);
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
 
 }
 
@@ -12,14 +14,15 @@ body{
     position: fixed;
     left: 0;
     
-    background-color: rgb(139, 188, 172);
+    background-color: #ffffff;
     padding-top: 10px ; 
     width: 300px;
     height: 100vh;
     border-right: 5px solid black;
 
-}ul {
-    height: 92%;
+}
+#navbar ul {
+    height: 91.3%;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -27,7 +30,7 @@ body{
     overflow-x: hidden;
   
 }
-ul li{
+#navbar ul li{
     border-bottom: 2px solid black;
     width: 100%;
     display: block;
@@ -52,7 +55,7 @@ main{
 .main-header {
     position: sticky;
     top: 0;
-    background-color:rgb(139, 188, 172);
+    background-color: #ffffff;
    
 
 }
@@ -65,4 +68,55 @@ main{
 
 .main-section{
     padding-left: 30px;
+}
+code{
+    display: block;
+    background-color: #d2d2d2;
+    border-radius: 5px;
+    
+    margin: 0 50px 0 40px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+form{
+    float: left;
+}  
+ /*--------------------------                       Task media@              */
+.formcode{
+    margin-left: 15vw;
+}
+.selectors code{
+    display: inline-block;
+    width: 150px;
+  margin: 0 10vw 10px 0;
+    margin-left: 0px;
+  height: 50px;
+  text-align: center;
+  padding-top:15px ;
+  
+}
+.selectors li{
+    width: 90%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  
+
 }
