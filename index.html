@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front-End Basic</title>
     <link rel="stylesheet" href="styles.css">
-<!-- <p></p>
-            <code></code>
-            <ul>
-                <li></li>
-            </ul>   -->
+<!-- всі границі зробити іншоо кольорру від чорний
+CSS доробити
+здати всі тести в dreecodecamp
+-->
 
 </head>
 <body>  
@@ -611,9 +610,155 @@
         </section>
         <section id="CSS_Align" class="main-section">
             <h3>CSS Align</h3>
+            <p>In CSS, alignment typically refers to the arrangement and positioning of elements on a web page. 
+                There are various properties and techniques you can use to control the alignment of elements. 
+                Here are some common alignment-related properties and techniques:
+            </p>
         </section>
         <section id="CSS_Efects" class="main-section">
             <h3>CSS Efects</h3>
+            <p>CSS effects refer to visual enhancements or animations applied to HTML elements using CSS properties and techniques. 
+                These effects can be used to make web pages more engaging, interactive, and aesthetically appealing. 
+                Here are some common CSS effects and techniqu
+            </p>
+            <ul>
+                <li><strong>Hover Effects:</strong>
+                    <ul>
+                        <li>
+                            You can apply changes to an element when a user hovers over it using the :hover pseudo-class. Common hover effects include changing colors, backgrounds, or font styles.
+                        </li>
+                        
+                        <pre>
+                            <code>
+            button:hover {
+            background-color: #ff5733;
+            color: white;
+            }
+                            </code>
+                        </pre>
+                    </ul>
+                </li>
+                
+                <li><strong>Transitions:</strong>
+                    <ul>
+                        <li>
+                            The transition property allows you to smoothly animate changes in CSS properties. It's often used in conjunction with the :hover pseudo-class to create smooth transitions when an element changes state.
+                        </li>
+                        <pre>
+                            <code>
+            button {
+              transition: background-color 0.3s, color 0.3s;
+            }
+                            </code>
+                        </pre>
+                       
+                    </ul>
+                </li>
+                
+                <li><strong>Animations:</strong>
+                    <ul>
+                        <li>
+                            CSS animations provide more complex and customized effects. You define keyframes and specify how elements should change over time.
+                        </li>
+                        <pre>
+                            <code>
+            @keyframes bounce {
+              0% {
+                transform: translateY(0);
+              }
+              50% {
+                transform: translateY(-20px);
+              }
+              100% {
+                transform: translateY(0);
+              }
+            }
+            
+            .animated-element {
+              animation: bounce 2s infinite;
+            }
+                            </code>
+                        </pre>
+                        
+                    </ul>
+                </li>
+                
+                <li><strong>Shadows and Glows:</strong>
+                    <ul>
+                        <li>
+                            You can use properties like box-shadow and text-shadow to add shadows or glows to elements, creating a 3D effect.
+                        </li>    
+                        <pre>
+                            <code>
+            .card {
+              box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            }
+                            </code>
+                        </pre>
+                    </ul>
+                </li>
+                
+                <li><strong>Transformations:</strong>
+                    <ul>
+                        <li>
+                            CSS transform properties (e.g., rotate, scale, translate, skew) allow you to modify the appearance of elements. These can be used for various effects, such as rotating an image or scaling an element on hover.
+                        </li>
+                            <pre>
+                                <code>
+            .rotate-on-hover:hover {
+              transform: rotate(45deg);
+            }
+                                </code>
+            </pre>
+                    </ul>
+                </li>
+                
+                <li><strong>Gradients:</strong>
+                    <ul>
+                        <li>
+                            CSS gradients let you create smooth transitions between colors or apply gradients as backgrounds to elements.
+                        </li>
+                            <pre>
+                                <code>
+            .gradient-bg {
+              background: linear-gradient(to bottom, #ff5733, #ffabab);
+            }
+                                </code>
+            </pre>  
+                    </ul>
+                </li>
+                
+                <li><strong>Opacity and Transparency:</strong>
+                    <ul>
+                        <li>
+                            You can control the opacity of elements using the opacity property, allowing for fading in and out effects.
+                        </li>
+                        
+                            <pre>
+                                <code>
+            .fade-out {
+              opacity: 0.5;
+            }
+                                </code>
+            </pre>
+                    </ul>
+                </li>
+                
+                <li><strong>Blur and Filter Effects:</strong>
+                    <ul>
+                        <li>CSS blur and filter properties enable you to apply blur, brightness, contrast, and other visual effects to elements.</li>
+                            <pre>
+                                <code>
+            .blurred-image {
+              filter: blur(5px);
+            }
+                                </code>
+            </pre>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
         </section>
         <section id="What_is_next" class="main-section">
             <h3>What is next</h3>

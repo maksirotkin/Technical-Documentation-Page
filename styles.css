@@ -39,7 +39,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #4d4e53;
 }
 nav h1{
     border-bottom:2px solid black;
@@ -151,4 +151,11 @@ display: flex;
 }
 #right{
     float: right;
+}
+#CSS_Efects ul li{
+    line-height: 1.2em;
+}
+#CSS_Efects ul li ul{
+    margin-top: 10px;
+   list-style: none;
 }
