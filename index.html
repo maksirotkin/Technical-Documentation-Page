@@ -501,15 +501,113 @@
         </section>
         <section id="Proporties_Overview" class="main-section">
             <h3>Proporties Overview</h3>
+            <p>CSS properties such as color, border, background, and font allow you to control the
+                 visual appearance of web elements
+                 by defining their text color, borders, background styles, and typography settings,
+                  ensuring a tailored and attractive design for your web pages
+            </p>
+            <ol>
+                <li>Color:
+                    <p>
+                        The color property sets the text color of an element. <br>
+                        <code>color: #FF5733;</code> 
+                    </p>
+                </li>
+                <li>Border:
+                    <p>
+                        The border property is used to set the border of an element. <br>
+                        <code>border: 2px solid #333;</code> 
+                    </p>
+                </li>
+                <li>Background:
+                    <p>
+                        The background property sets the background color or image of an element. <br>
+                            <code>
+                                background-color: #EFEFEF;<br>
+                                background-image: url('background.jpg');
+                            </code>              
+                    </p>
+                </li>
+                <li>Font:
+                    <p>
+                        The font property is used to specify the font family, size, weight, and style of text. <br>
+                        <code>
+                            font-family: Arial, sans-serif; <br>
+                             font-size: 16px; <br>
+                             font-weight: bold; <br>
+                             font-style: italic;
+                        </code> 
+                    </p>
+                </li>
+            </ol>
         </section>
         <section id="Box-model" class="main-section">
             <h3>Box-model</h3>
+            <p>The CSS Box Model is a fundamental concept in web design and layout. 
+                It defines how HTML elements are rendered on a web page by considering them as boxes, 
+                each with content, padding, border, and margin areas. 
+                These areas influence the size and spacing of elements on a webpage.
+            </p>
+            <div id="boxmodel">
+                <img src="img/boxmodel.gif" alt="boxmodel">
+                <div id="box">
+                    <p>
+                        content content content content content content content content content content content content content content content
+                    </p>
+                </div>
+            </div>
+                      
+            
         </section>
         <section id="Position" class="main-section">
             <h3>Position</h3>
+            <p>Position  is called a position of the element in the Cartesian coordinate system. 
+                There are five types of position: normal, absolute, fixed, relative, and sticky. 
+                When you use different combinations of properties position, left, top, right and bottom, 
+                it is possible to overlay elements on each other, display at a point with certain coordinates, 
+                fix elements at a specified position, determine the position of one element relative to another, 
+                and so on. By controlling positioning, you can dynamically change the position of elements without 
+                reloading the page, creating animation and various effects.
+            </p>
+            <p>
+                As you can see the header (Technologies that I have studied) has a position: sticky; and navigation menu position: fixed;
+            </p>
+
         </section>
         <section id="Floating_boxes" class="main-section">
             <h3>Floating boxes</h3>
+            <p>Float element is called an element, are floated around the outline by other web page objects, 
+                 as text. Such elements are used when laying out web pages for: floating images with text, creating sidebars, 
+                 horizontal menus, photo galleries, two and three column layouts.
+            </p>
+            <p>In CSS, the property float is used for this purpose, and if it has a value left, 
+                then left alignment is executed, if right, then it is aligned to the right. 
+                This property has no default value. But if for some reason it is required to explicitly 
+                indicate that there is no floating, use the value none. Elements with absolute and fixed position ignore the property float.
+            </p>
+            <div id="float-box" style="display: flex; align-items: center; width: 100%;">
+                <div class="float-example">   
+                    <div  >
+                            <img id="left" src="img/boxmodel.gif" alt="unnesesary">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Incidunt eos ullam, ducimus a, asperiores veritatis iusto delectus 
+                                vitae vero reiciendis rem. Perferendis obcaecati, eveniet omnis sunt 
+                                dicta aut dolor voluptatibus?
+                            </p>
+                    </div>
+                </div>
+                
+                <div class="float-example">
+                    <div >
+                        <img id="right" src="img/boxmodel.gif" alt="unnesesary">
+                            <p style="padding-left: 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Incidunt eos ullam, ducimus a, asperiores veritatis iusto delectus 
+                                vitae vero reiciendis rem. Perferendis obcaecati, eveniet omnis sunt 
+                                dicta aut dolor voluptatibus?
+                            </p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="CSS_Align" class="main-section">
             <h3>CSS Align</h3>
